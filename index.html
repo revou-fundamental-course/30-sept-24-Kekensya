@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Temperature Converter</h1>
+        <form id="temp-form">
+            <label for="celsius">Celsius (°C):</label>
+            <input type="number" id="celsius" placeholder="Enter Celsius" required>
+            <div class="button-container">
+                <button type="button" id="convert-btn">Convert</button>
+                <button type="button" id="reset-btn">Reset</button>
+                <button type="button" id="reverse-btn">Reverse</button>
+            </div>
+            
+            <label for="fahrenheit">Fahrenheit (°F):</label>
+            <input type="number" id="fahrenheit" placeholder="Result" readonly>
+           
+            <label for="cara-kalkulasi">Cara Kalkulasi:</label>
+            <input type="text" id="cara-kalkulasi" placeholder="Result kalkulasi" readonly>
+        </form>
+        <div class="calculation">
+            <h3>Formulas:</h3>
+            <p>Suhu dalam derajat Fahrenheit (°F) sama dengan suhu dalam derajat Celsius (°C) kali 1.8 tambah 32.</p>
+            <p><strong>S(°F) = (S(°C) × 1.8) + 32</strong></p>
+        </div>
+    </div>
+    <script src="js/script.js">
+
+        
+    </script>
+</body>
+</html>
