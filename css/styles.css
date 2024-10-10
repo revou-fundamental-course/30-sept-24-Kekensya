@@ -25,6 +25,7 @@ input[type="number"] {
     margin: 5px 0 15px;
     border: 1.5px solid #000000;
     border-radius: 20px;
+    font-size: 15px;
 }
 input[type="text"] {
     width: 90%;
@@ -32,7 +33,10 @@ input[type="text"] {
     margin: 5px 0 15px;
     border: 1.5px solid #000000;
     border-radius: 20px;
+    font-size: 15px;
 }
+
+
 .button-container {
     display: flex;
     justify-content: flex-start;
@@ -47,6 +51,7 @@ button {
     background-color: #71b6ff;
     color: white;
     transition: background-color 0.3s;
+    font-size: 15px;
 }
 button:hover {
     background-color: #0056b3;
